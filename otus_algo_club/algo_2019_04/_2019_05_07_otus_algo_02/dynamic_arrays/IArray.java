@@ -1,8 +1,10 @@
-package otus_algo_club.algo_2019_04._2019_05_07_otus_algo_02.dynamic_arrays;
+package dynamic_arrays;
 
-public interface IArray {
-	void add();
-	void insert();
-	void delete();
-	void any();
+public interface IArray<T> {
+	void add(T elem);
+	void insert(int index, T elem); // со сдвигом элементов к хвосту
+	T get(int index);
+	T remove(int index);
+	T remove(T elem);
+	int size();
 }
