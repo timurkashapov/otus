@@ -1,7 +1,5 @@
 package lesson.java.dynamic_arrays;
 
-import lesson.java.dynamic_arrays.model.IArray;
-
 import static java.lang.System.arraycopy;
 
 public class SingleArray<T> extends AbstractArray<T> {
